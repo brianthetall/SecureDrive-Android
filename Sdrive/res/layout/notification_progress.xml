@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="64dp" 
+    android:orientation="vertical">
+        
+        <TextView 
+            style="@android:style/TextAppearance.StatusBar.EventContent.Title"
+            android:id="@+id/notification_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/notification_title_uploading" />
+        
+        <TextView 
+            style="@android:style/TextAppearance.StatusBar.EventContent"
+            android:id="@+id/notification_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        <ProgressBar 
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:id="@+id/notification_progress" 
+            android:max="100" 
+            android:indeterminate="false"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+</LinearLayout>

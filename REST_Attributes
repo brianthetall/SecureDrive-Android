@@ -1,0 +1,6 @@
+id : user's email address
+androidToken : token from account manager
+
+
+REST Endpoints prepared for androidToken:
+https://cloud.brianthetall.com/start/SDrive

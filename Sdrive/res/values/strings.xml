@@ -1,0 +1,19 @@
+<resources>
+
+	<string name="app_name">Secure Drive</string>
+	<string name="menu_settings">Settings</string>
+	<string name="welcome">Secure Drive allows you to store an encrypted version of any file on Google Drive.\n\nTo get started, choose a Google Account below:</string>
+	<string name="next">Next</string>
+	<string name="invalid_share">Unable to handle share request</string>
+	<string name="uploading_multiple">Your files are being uploaded to Secure Drive. Check progress in the notification drawer.</string>
+	<string name="uploading">Your file is being uploaded to Secure Drive. Check progress in the notification drawer.</string>
+	<string name="list_update_failed">Failed to retrieve list of files</string>
+	<string name="file_delete_failed">Failed to delete file</string>
+	<string name="loading">Retreiving file list...</string>
+	<string name="cancelled">Cancelled</string>
+	<string name="notification_title_uploading">Uploading to Secure Drive</string>
+	<string name="upload_filename_hint">Filename</string>
+	<string name="confirm_file_download">Download file?</string>
+	<string name="confirm_file_delete">Delete file?</string>
+
+</resources>
